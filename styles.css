@@ -32,6 +32,9 @@ a {
 }
 
 @media (max-width: 992px) {
+	ul {
+		background-color: white;
+	}	
 	.container-fluid {
 		background-color: teal;
  	}  
