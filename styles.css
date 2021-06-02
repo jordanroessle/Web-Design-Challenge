@@ -28,6 +28,11 @@ a {
 	color: teal;
 }
 
+.card h2 {
+	color: teal;
+	text-align: center;
+}
+
 .card {
 	margin: 20px;
 	padding: 10px;
