@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: lightgray;
 }
 
 img {
@@ -31,18 +32,18 @@ a {
 	color: teal;
 }
 
-@media (max-width: 992px) {
-	ul {
+@media (max-width: 992px) {	
+	ul{
 		background-color: white;
-	}	
-	.container-fluid {
+	}
+	.container-fluid{
 		background-color: teal;
  	}  
 }
 
 @media (min-width: 992px) {
 	.container-fluid{
-		background-color: white;
+		background-color: unset;
 	}  
 }
 
