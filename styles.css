@@ -5,6 +5,8 @@ body {
 
 img {
 	float: left;
+	max-width: 100%;
+	height: auto;
 }
 
 a {
@@ -22,16 +24,15 @@ a {
 	border: 3px solid teal;
 }
 
-.box {
-	position: relative;
-	background-color: white;
-	top: 2%;
-}
-
-.box h1 {
+.card h1 {
 	color: teal;
 }
 
+.card {
+	margin: 20px;
+	padding: 10px;
+}
+	
 @media (max-width: 992px) {	
 	ul{
 		background-color: white;
@@ -46,4 +47,3 @@ a {
 		background-color: unset;
 	}  
 }
-
