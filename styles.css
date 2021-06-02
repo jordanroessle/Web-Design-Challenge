@@ -37,6 +37,18 @@ a {
 	margin: 20px;
 	padding: 10px;
 }
+
+table tr {
+    border-bottom: 1px solid lightgray;
+}
+
+table tr:last-child { 
+    border-bottom: none; 
+}
+
+table td, table th {
+	padding:10px;
+}
 	
 @media (max-width: 992px) {	
 	ul{
